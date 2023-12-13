@@ -22,6 +22,12 @@ func main() {
 		infoLog: infoLog,
 	}
 
+	db, err := openDb(cfg.dsn)
+	if err != nil {
+		app.errorLog.Fatal(err)
+	}
+	defer db.Close()
+
 	srv := &http.Server {
 		Addr: cfg.addr,
 		ErrorLog: errorLog,
