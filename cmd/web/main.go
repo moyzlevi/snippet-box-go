@@ -4,11 +4,13 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"snippetbox.moypietsch.com/internal/models"
 )
 
 type application struct {
 	errorLog *log.Logger
 	infoLog *log.Logger
+	snnipets  *models.SnippetModel
 }
 
 func main() {
@@ -17,16 +19,17 @@ func main() {
 	infoLog := log.New(os.Stdout, "INFO\t", log.Ldate|log.Ltime)
 	errorLog := log.New(os.Stderr, "ERROR\t", log.Ldate|log.Ltime|log.Lshortfile)
 
+	db, err := openDb(cfg.dsn)
+	if err != nil {
+		errorLog.Fatal(err)
+	}
+	defer db.Close()
+
 	app := &application{
 		errorLog: errorLog,
 		infoLog: infoLog,
+		snnipets: &models.SnippetModel{DB: db},
 	}
-
-	db, err := openDb(cfg.dsn)
-	if err != nil {
-		app.errorLog.Fatal(err)
-	}
-	defer db.Close()
 
 	srv := &http.Server {
 		Addr: cfg.addr,
