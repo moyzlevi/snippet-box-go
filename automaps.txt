@@ -1,0 +1,5 @@
+CHAR, VARCHAR and TEXT to string
+BOOLEAN to bool
+INT to int BIGINT to int64
+DECIMAL and NUMERIC to float
+TIME DATE AND TIMESTAMP to time.Time
