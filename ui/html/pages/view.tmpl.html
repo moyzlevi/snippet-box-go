@@ -1,0 +1,14 @@
+{{define "title"}} Snippet #{{.Snippet.ID}} {{end}} 
+{{define "main"}}
+{{with .Snippet}}
+<div class="snippet">
+    <div class="metadata">
+        <strong>{{.Title}}</strong>
+        <span>#{{.ID}}</span>
+    </div>
+    <pre><code>{{.Snippet_content}}</code></pre>
+</div>
+<time>Created: {{.Created_on}}</time>
+<time>Expires: {{.Expires}}</time>
+{{end}}
+{{end}}

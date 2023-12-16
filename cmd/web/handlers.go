@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"net/http"
 	"strconv"
-	"html/template"
 	"snippetbox.moypietsch.com/internal/models"
 )
 
@@ -21,28 +20,7 @@ func (app *application) home(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	for _, snippet := range snippets {
-		fmt.Fprintf(w, "%+v\n", snippet)
-	}
-
-	// files := []string{
-	// 	"../../ui/html/base.tmpl.html",
-	// 	"../../ui/html/partials/nav.tmpl.html",
-	// 	"../../ui/html/pages/home.tmpl.html",
-	// }
-
-	// ts, err := template.ParseFiles(files...)
-
-	// if err != nil {
-	// 	app.serverError(w, err)
-	// 	return
-	// }
-	// err = ts.ExecuteTemplate(w, "base", nil)
-
-	// if err != nil {
-	// 	app.serverError(w, err)
-	// 	return
-	// }
+	app.render(w, http.StatusOK, "home.tmpl.html", &templateData{Snippets: snippets})
 }
 
 func (app *application) snippetView(w http.ResponseWriter, r *http.Request) {
@@ -62,23 +40,7 @@ func (app *application) snippetView(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-		files := []string{
-		"../../ui/html/base.tmpl.html",
-		"../../ui/html/partials/nav.tmpl.html",
-		"../../ui/html/pages/view.tmpl.html",
-	}
-
-	ts, err := template.ParseFiles(files...)
-	if err != nil {
-		app.serverError(w, err)
-		return
-	}
-
-	err = ts.ExecuteTemplate(w, "base", snippet)
-
-	if err != nil {
-		app.serverError(w, err)
-	}
+	app.render(w, http.StatusOK, "view.tmpl.html", &templateData{Snippet: snippet})
 }
 
 func (app *application) snippetCreate(w http.ResponseWriter, r *http.Request) {
