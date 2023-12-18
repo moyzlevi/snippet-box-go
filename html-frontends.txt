@@ -1,0 +1,9 @@
+I've completely switched to HTMX, 
+Hyperscript, TailwindCSS, and Go for all my frontend needs.
+
+
+or 
+
+alpinejs
+
+/spend 2023-11-17 9h

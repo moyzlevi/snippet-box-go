@@ -1,0 +1,281 @@
+    {
+        "items": [
+            {
+                "code": 123,
+                "number": 2,
+                "amount": 1,
+                "deliveryAmount": 1,
+                "unitaryValue": 33.99,
+                "totalValue": 27.19,
+                "exemptionPercentage": 0.0,
+                "discount": {
+                    "discountValue": 6.8,
+                    "discountType": "I",
+                    "discountPercentage": 20.0,
+                    "discountOrigin": "PROMOCAO"
+                },
+                "promotion": {
+                    "code": 143501,
+                    "subsidiaryCode": 1002
+                },
+                "pbmAuthorizations": [],
+                "typedItem": false,
+                "preOrder": false,
+                "serviceItem": false,
+                "deliveryFee": false,
+                "brandDescription": "CLEAR",
+                "subBrandDescription": "CLEAR MEN LIMPEZA PROFUNDA",
+                "categoryDescription": "SHAMPOO",
+                "manufacturerCorporateName": "UNILEVER BRA. LTDA"
+            },
+            {
+                "code": 117300,
+                "number": 1,
+                "amount": 1,
+                "deliveryAmount": 1,
+                "unitaryValue": 110.25,
+                "totalValue": 66.15,
+                "exemptionPercentage": 0.0,
+                "discount": {
+                    "discountValue": 44.1,
+                    "discountType": "I",
+                    "discountPercentage": 40.0,
+                    "discountOrigin": "PROMOCAO"
+                },
+                "promotion": {
+                    "code": 143501,
+                    "subsidiaryCode": 1002
+                },
+                "pbmAuthorizations": [],
+                "prescription": {
+                    "digitalPrescription": {
+                        "id": 371610,
+                        "token": "CjdTpohd",
+                        "platform": "CREMERS",
+                        "prescriptionType": "TOKEN"
+                    },
+                    "dosage": {}
+                },
+                "typedItem": false,
+                "preOrder": false,
+                "serviceItem": false,
+                "deliveryFee": false,
+                "brandDescription": "FAMILIA GENERICOS",
+                "categoryDescription": "C1 - BARBITURICO",
+                "manufacturerCorporateName": "ALTHAIA S.A. INDUSTRIA FARMACEUTICA"
+            },
+            {
+                "code": 660030,
+                "number": 4,
+                "amount": 2,
+                "deliveryAmount": 2,
+                "unitaryValue": 18.29,
+                "totalValue": 29.26,
+                "exemptionPercentage": 0.0,
+                "discount": {
+                    "discountValue": 7.32,
+                    "discountType": "I",
+                    "discountPercentage": 20.0,
+                    "discountOrigin": "PROMOCAO"
+                },
+                "promotion": {
+                    "code": 143501,
+                    "subsidiaryCode": 1002
+                },
+                "pbmAuthorizations": [],
+                "typedItem": false,
+                "preOrder": false,
+                "serviceItem": false,
+                "deliveryFee": false,
+                "brandDescription": "REXONA",
+                "subBrandDescription": "XTRACOOL",
+                "categoryDescription": "AEROSOL",
+                "manufacturerCorporateName": "UNILEVER BRASIL      LTDA."
+            },
+            {
+                "code": 112988,
+                "number": 5,
+                "amount": 1,
+                "deliveryAmount": 1,
+                "unitaryValue": 31.99,
+                "totalValue": 25.59,
+                "exemptionPercentage": 0.0,
+                "discount": {
+                    "discountValue": 6.4,
+                    "discountType": "I",
+                    "discountPercentage": 20.0,
+                    "discountOrigin": "PROMOCAO"
+                },
+                "promotion": {
+                    "code": 143501,
+                    "subsidiaryCode": 1002
+                },
+                "pbmAuthorizations": [],
+                "typedItem": false,
+                "preOrder": false,
+                "serviceItem": false,
+                "deliveryFee": false,
+                "brandDescription": "PANVEL",
+                "subBrandDescription": "PANVEL MAKE-UP",
+                "categoryDescription": "FACE",
+                "manufacturerCorporateName": "LIPSON COSMETICOS LTDA"
+            },
+            {
+                "code": 108027,
+                "number": 3,
+                "amount": 1,
+                "deliveryAmount": 1,
+                "unitaryValue": 84.5,
+                "totalValue": 50.7,
+                "exemptionPercentage": 0.0,
+                "discount": {
+                    "discountValue": 33.8,
+                    "discountType": "I",
+                    "discountPercentage": 40.0,
+                    "discountOrigin": "PROMOCAO"
+                },
+                "promotion": {
+                    "code": 143501,
+                    "subsidiaryCode": 1002
+                },
+                "pbmAuthorizations": [],
+                "prescription": {
+                    "digitalPrescription": {
+                        "id": 371611,
+                        "token": "CjdTpohd",
+                        "platform": "CREMERS",
+                        "prescriptionType": "TOKEN"
+                    },
+                    "dosage": {}
+                },
+                "typedItem": false,
+                "preOrder": false,
+                "serviceItem": false,
+                "deliveryFee": false,
+                "brandDescription": "FAMILIA GENERICOS",
+                "categoryDescription": "C1 - BARBITURICO",
+                "manufacturerCorporateName": "PRATI DONADUZZI & CIA LTDA."
+            }
+        ],
+        "delivery": {
+            "id": "f23fec59-67f9-4d06-aaed-589f36a846cc",
+            "subsidiary": 701,
+            "deliveryMethod": "MOTOBOY",
+            "deliveryType": "PROGRAMADA",
+            "routeCode": 43,
+            "deliveryDate": "2023-06-19T18:00",
+            "routeDepartureTime": "2023-06-19T14:00",
+            "address": {
+                "localityCode": 7718,
+                "streetCode": 259795,
+                "number": 266,
+                "complement": "701",
+                "uf": "RS",
+                "city": "PORTO ALEGRE",
+                "district": "CENTRO HISTORICO",
+                "street": "DUQUE DE CAXIAS",
+                "zipCode": 90010280,
+                "ibgeCityCode": "4314902",
+                "provinceName": "RIO GRANDE DO SUL",
+                "countryCode": "1058",
+                "countryAcronym": "BR",
+                "countryName": "BRASIL",
+                "streetType": "R"
+            },
+            "chargeFee": false
+        },
+        "orderId": -909099,
+        "status": "IMPRESSO",
+        "shoppingCartId": 48488849,
+        "newShoppingCartId": "648705b7ed24e152e28629cf",
+        "orderTotalValue": 198.89,
+        "subsidiary": 701,
+        "urgentOrder": false,
+        "printsCouponDocument": false,
+        "printsNfe": false,
+        "orderType": "DIGITAL",
+        "orderSource": "APP",
+        "operationCode": 826,
+        "panvelGo": false,
+        "covenants": [
+            {
+                "code": 326801,
+                "subsidiary": 1002,
+                "covenantSubsidiaryCode": 1002,
+                "associateCode": 3147711,
+                "associateRegistration": "188235",
+                "iinNumber": "603723",
+                "cardNumber": "698251979",
+                "orderCovenantSequence": 1
+            },
+            {
+                "code": 416061,
+                "subsidiary": 1002,
+                "covenantSubsidiaryCode": 1002,
+                "associateCode": 3147711,
+                "associateRegistration": "671279084",
+                "iinNumber": "603723",
+                "cardNumber": "607117519",
+                "orderCovenantSequence": 2
+            }
+        ],
+        "client": {
+            "code": 6046782,
+            "name": "THIAGO MACHADO SILVEIRA",
+            "areaCode": "51",
+            "phoneNumber": "996717010",
+            "document": "657510009",
+            "email": "kaksongracie@gmail.com"
+        },
+        "paymentMethods": [
+            {
+                "paymentMethodDescription": "CARTAO_ONLINE_PARCELADO",
+                "paymentType": "P",
+                "value": 198.89,
+                "paymentMethodSequence": 1,
+                "paymentConditionCode": 86,
+                "paymentConditionSequence": 2,
+                "covenantSubsidiaryCode": 1002,
+                "covenantCode": 254525,
+                "covenantDocuments": [],
+                "transactionUSN": "949311",
+                "authorizationNumber": "064793",
+                "cardId": 1805228,
+                "nitEsitef": "f2131baa-8034-4eff-847b-4606ded67d4d",
+                "installments": 3,
+                "businessTypeCode": 30
+            }
+        ],
+        "billingAddress": {
+            "localityCode": 7718,
+            "streetCode": 259795,
+            "number": 266,
+            "complement": "701",
+            "uf": "RS",
+            "city": "PORTO ALEGRE",
+            "district": "CENTRO HISTORICO",
+            "street": "DUQUE DE CAXIAS",
+            "zipCode": 90010280,
+            "ibgeCityCode": "4314902",
+            "provinceName": "RIO GRANDE DO SUL",
+            "countryCode": "1058",
+            "countryAcronym": "BR",
+            "countryName": "BRASIL",
+            "streetType": "R"
+        },
+        "expressOrder": false,
+        "priorityOrder": false,
+        "reprintsOrder": false,
+        "changeValue": 0,
+        "sentMonitoring": "N",
+        "orderIdentificationName": "BRUNNA BERTUOL TATSCH",
+        "billingAndDeliverySeparated": "N",
+        "effectiveDatetime": "2023-12-14T16:53:00",
+        "splittedOrder": false,
+        "orderProvider": "PANVEL",
+        "supplierCode": 10216300,
+        "itemSegmentType": "PRODUTO",
+        "generateLegalTaxVoucher": true,
+        "hasMarketplaceOrder": false,
+        "pip": false
+    }

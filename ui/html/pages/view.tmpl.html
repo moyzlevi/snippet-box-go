@@ -8,7 +8,7 @@
     </div>
     <pre><code>{{.Snippet_content}}</code></pre>
 </div>
-<time>Created: {{.Created_on}}</time>
-<time>Expires: {{.Expires}}</time>
+<time>Created: {{humanDate .Created_on}}</time>
+<time>Expires: {{humanDate .Expires}}</time>
 {{end}}
 {{end}}
